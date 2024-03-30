@@ -1,13 +1,16 @@
 package com.example.spring6restmvc.services;
 
-import com.example.spring6restmvc.model.Beer;
-import com.example.spring6restmvc.model.Customer;
-import lombok.extern.slf4j.Slf4j;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-import java.time.LocalDateTime;
-import java.util.*;
+import com.example.spring6restmvc.model.Customer;
 
 @Service
 public class CustomerServiceImpl implements CustomerService{
